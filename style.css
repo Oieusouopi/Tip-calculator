@@ -1,0 +1,129 @@
+ @font-face {
+     font-family: 'Space Mono' ;
+     src: url('/SpaceMono-Bold.ttf') format('truetype');
+}
+ 
+ * {
+     margin: 0;
+     padding:0;
+     font-family: 'Space Mono';
+}
+
+  body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+ #bodyTable {
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: inline-flex;
+     width: 550px;
+     height: 350px;
+     background-color: hsl(0, 0%, 100%);
+     border-radius: 5px;
+     box-shadow: 0 0 4px black;
+     width: 620px;
+     border-radius: 10px;
+}
+
+ #firstTable {
+     margin: 10px;
+     padding: 10px;
+     font-size: 9px;
+     color: hsl(183, 100%, 15%);
+}
+
+#secondTable {
+     margin: 10px;
+     padding: 10px;
+     background-color: hsl(183, 100%, 15%);
+     font-size: 9px;
+     width: 500px;
+     border-radius: 10px;
+     display: inline-grid;
+}
+
+.buttontip {
+    width: 70px;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(183, 100%, 15%);
+}
+
+#firstTable h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+#people {
+    margin: 5px;
+    width: 265px;
+    height: 24px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    color: hsl(183, 100%, 15%);
+    text-align: end;
+}
+
+#billTotal {
+    margin: 5px;
+    width: 265px;
+    height: 24px;
+    background-color: hsl(189, 41%, 97%);
+    border: none;
+    color: hsl(183, 100%, 15%);
+    text-align: end;
+}
+
+#divButton {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+input.buttontip {
+    width: 66px;
+    margin: 10px;
+    height: 26px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+}
+
+#amountPerson {
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+}
+
+#resultTip {
+    font-size: 25px;
+    color: hsl(172, 67%, 45%);
+}
+
+#secondTable h2 {
+    color: white;
+}
+
+#buttonReset {
+    height: 40px;
+    background: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+}
+
+#calculateButton {
+    height: 40px;
+    background: hsl(172, 67%, 45%);
+    border: none;
+    border-radius: 5px;
+}
+
+button.buttontip:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
