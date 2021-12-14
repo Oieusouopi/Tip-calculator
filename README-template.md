@@ -24,7 +24,7 @@ Build the website and make the logic to calculate the tips.
 
 ### Screenshot
 
-![](./images/TipCalculatorApp.png)
+![](images/TipCalculatoApp.png)
 
 ## My process
 
